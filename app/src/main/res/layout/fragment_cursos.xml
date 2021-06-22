@@ -8,51 +8,63 @@
     tools:context=".ui.cursos.CursosFragment" >
 
     <Button
-        android:id="@+id/buttonFP"
+        android:id="@+id/buttonFB"
         android:layout_width="250dp"
         android:layout_height="80dp"
-        android:layout_marginTop="190dp"
-        android:text="@string/fundamentos_basicos"
-        android:backgroundTint="#4FBFEF"
+        android:backgroundTint="#FFFEFE"
+        android:drawableLeft="@mipmap/leccion_foreground"
+        android:drawablePadding="0dp"
+        android:foregroundTint="#020202"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:text="Fundamentos básicos"
+        android:textColor="#050505"
+        android:textSize="12sp"
         app:cornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.253" />
 
     <Button
         android:id="@+id/buttonCP"
         android:layout_width="250dp"
         android:layout_height="80dp"
-        android:layout_marginTop="30dp"
-        android:text="@string/conceptos_de_programacion"
-        android:backgroundTint="#4FBFEF"
+        android:layout_marginTop="62dp"
+        android:backgroundTint="#FFFEFE"
+        android:drawableLeft="@mipmap/leccion_foreground"
+        android:drawablePadding="0dp"
+        android:foregroundTint="#020202"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:text="Conceptos de programación"
+        android:textColor="#050505"
+        android:textSize="12sp"
         app:cornerRadius="30dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonFP" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonFB" />
 
     <Button
         android:id="@+id/buttonEC"
         android:layout_width="250dp"
         android:layout_height="80dp"
-        android:layout_marginTop="30dp"
-        android:text="@string/estructuras_de_control"
-        android:backgroundTint="#4FBFEF"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="#FFFEFE"
+        android:drawableLeft="@mipmap/leccion_foreground"
+        android:drawablePadding="0dp"
+        android:foregroundTint="#020202"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:text="Estructuras de control"
+        android:textColor="#050505"
+        android:textSize="12sp"
         app:cornerRadius="30dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/buttonCP" />
 
-    <!--Button
-        android:id="@+id/buttonExamen"
-        android:layout_width="250dp"
-        android:layout_height="80dp"
-        android:layout_marginTop="190dp"
-        android:backgroundTint="#A7EACD"
-        android:text="@string/examen_de_colocacion"
-        android:textColor="#0E0E0E"
-        app:cornerRadius="30dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonCP" /-->
 </androidx.constraintlayout.widget.ConstraintLayout>
