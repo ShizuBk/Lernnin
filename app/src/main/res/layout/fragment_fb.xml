@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.lecciones.fb.CFb">
+
+
+    <Button
+        android:id="@+id/leccion1"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:backgroundTint="#FFFEFE"
+        android:drawableLeft="@mipmap/leccion_foreground"
+        android:drawablePadding="0dp"
+        android:foregroundTint="#020202"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:text="Lógica"
+        android:textColor="#050505"
+        android:textSize="12sp"
+        app:cornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.253" />
+
+    <Button
+        android:id="@+id/leccion2"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="62dp"
+        android:backgroundTint="#FFFEFE"
+        android:drawableLeft="@mipmap/leccion_foreground"
+        android:drawablePadding="0dp"
+        android:foregroundTint="#020202"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:text="Secuenciación"
+        android:textColor="#050505"
+        android:textSize="12sp"
+        app:cornerRadius="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/leccion1" />
+
+    <Button
+        android:id="@+id/leccion3"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="#FFFEFE"
+        android:drawableLeft="@mipmap/leccion_foreground"
+        android:drawablePadding="0dp"
+        android:foregroundTint="#020202"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:text="Ejemplos"
+        android:textColor="#050505"
+        android:textSize="12sp"
+        app:cornerRadius="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/leccion2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
