@@ -10,7 +10,7 @@ import android.widget.Button;
 import androidx.fragment.app.Fragment;
 
 import com.example.lernnin2.R;
-import com.example.lernnin2.ui.lecciones.fb.CFb;
+import com.example.lernnin2.ui.lecciones.fb.CFundamentosBasicos;
 
 
 public class CursosFragment extends Fragment{
@@ -31,7 +31,7 @@ public class CursosFragment extends Fragment{
         btnCFb.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                Intent intent=new Intent(getActivity(), CFb.class);
+                Intent intent=new Intent(getActivity(), CFundamentosBasicos.class);
                 startActivity(intent);
             }
         });

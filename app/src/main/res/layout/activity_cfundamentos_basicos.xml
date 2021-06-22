@@ -2,11 +2,9 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.lecciones.fb.CFb">
-
+    tools:context=".ui.lecciones.fb.CFundamentosBasicos">
 
     <Button
         android:id="@+id/leccion1"
@@ -59,7 +57,7 @@
         android:foregroundTint="#020202"
         android:paddingLeft="0dp"
         android:paddingRight="0dp"
-        android:text="Ejemplos"
+        android:text="Algoritmos"
         android:textColor="#050505"
         android:textSize="12sp"
         app:cornerRadius="30dp"
